@@ -6,7 +6,7 @@ public class NumWords {
 		int num2 = num1 / 10;
 		int ans2 = num2 % 10;
 		int num3 = num2 / 10;
-		int ans3 = num3 % 10;
+		int ans3 = num3;
 		System.out.println(ans3 + " hundreds, " + ans2 + " tens, and " + ans1 + " ones.");
 	}
 }
